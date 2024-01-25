@@ -32,13 +32,6 @@ paths:
           $ref: '#/components/responses/InternalServerError'
 components:
   schemas:
-    ProductInstanceReference:
-          type: object
-          properties:
-            CurrentAccountAgreement:
-              type: string
-              description: "\n"
-              format: string
     CurrentAccountNumber:
           type: object
           properties:
